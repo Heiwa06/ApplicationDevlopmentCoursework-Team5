@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Application.Bislerium\Application.Bislerium.csproj" />
+    <ProjectReference Include="..\Domain.Bislerium\Domain.Bislerium.csproj" />
+    <ProjectReference Include="..\Infrastructure.Bislerium\Infrastructure.Bislerium.csproj" />
+    <ProjectReference Include="..\Presentation.Bislerium\Presentation.Bislerium.csproj" />
+  </ItemGroup>
+
+</Project>
